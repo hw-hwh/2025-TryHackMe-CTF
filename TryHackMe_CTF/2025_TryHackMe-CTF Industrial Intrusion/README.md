@@ -1,4 +1,4 @@
-# Tryhackme CTF Industrial Intrusion
+# Tryhackme CTF Industrial Intrusion Write-Up
 - breach
 - discord
 - chess Industry [Boot2root]
