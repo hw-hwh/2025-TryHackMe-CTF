@@ -57,7 +57,7 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
 
 **Step 4)** /ui 에 접근하여 시스템 대쉬보드의 설정을 해제한다.
 
-![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/ui.webp)  
+![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/ui.webp)<br>
 
 
 
