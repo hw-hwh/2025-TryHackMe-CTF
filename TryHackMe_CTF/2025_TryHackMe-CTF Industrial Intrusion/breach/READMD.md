@@ -34,7 +34,7 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
   
 **Step 2)** 웹 사이트에 접속하면 게이트가 닫혀있다는 페이지를 볼 수 있으며 /api/gate 에 접근하면 게이트의 상태를 가져오는거 같다.
 
-![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateclose.webp)
+![gate closed](https://github.com/hw-hwh/CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateclose.webp)
 ```
 {
   "image": "closed-b8ce334bae3faf976fa457702fe7545b.png",
