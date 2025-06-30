@@ -7,4 +7,20 @@ Be sure to check all the open ports, you never know which one might be your way 
 
 
 # Write-up
-
+test
+```
+root@ip-10-10-119-24:~# nmap -sS 10.10.78.197 -p- -T4
+Starting Nmap 7.80 ( https://nmap.org ) at 2025-06-27 14:37 BST
+Nmap scan report for ip-10-10-78-197.eu-west-1.compute.internal (10.10.78.197)
+Host is up (0.00033s latency).
+Not shown: 65528 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+102/tcp   open  iso-tsap
+502/tcp   open  mbap
+1880/tcp  open  vsat-control
+8080/tcp  open  http-proxy
+44818/tcp open  EtherNetIP-2
+MAC Address: 02:52:83:5E:E3:5F (Unknown)
+```
