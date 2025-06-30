@@ -7,7 +7,7 @@ Be sure to check all the open ports, you never know which one might be your way 
 
 
 # Write-up
-test
+Reconnaissance must be conducted on the target server using an Nmap scan. Among the scan results, a web service is accessible, and port 1880, associated with vast-control, stands out as particularly noteworthy.
 ```
 root@ip-10-10-119-24:~# nmap -sS 10.10.78.197 -p- -T4
 Starting Nmap 7.80 ( https://nmap.org ) at 2025-06-27 14:37 BST
@@ -24,3 +24,6 @@ PORT      STATE SERVICE
 44818/tcp open  EtherNetIP-2
 MAC Address: 02:52:83:5E:E3:5F (Unknown)
 ```
+
+Accessing the website reveals a page indicating that the gate is closed.
+
