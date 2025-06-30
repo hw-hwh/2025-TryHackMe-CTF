@@ -10,7 +10,7 @@ Be sure to check all the open ports, you never know which one might be your way 
 THM{s4v3_th3_d4t3_27_jun3}
 ```
 
-  
+
   
 # Write-up
 **Step 1)** 타겟 서버에 대해 Nmap 스캔을 통해 정찰을 수행하였다. 스캔 결과 중 웹 서비스가 열려있었으며, vast-control과 관련된 1880번 포트가 열려있다.
@@ -29,7 +29,7 @@ PORT      STATE SERVICE
 8080/tcp  open  http-proxy
 44818/tcp open  EtherNetIP-2
 MAC Address: 02:52:83:5E:E3:5F (Unknown)
-```
+```  
 
   
   
@@ -57,7 +57,7 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
 
 **Step 4)** /ui 에 접근하여 시스템 대쉬보드의 설정을 해제한다.
 
-![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/ui.webp)
+![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/ui.webp)  
 
 
 
