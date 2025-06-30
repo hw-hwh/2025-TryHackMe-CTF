@@ -1,6 +1,6 @@
-# tryhackme ctf industrial intrusion
+# Tryhackme CTF Industrial Intrusion
 - breach
 - discord
-- chess Industry
-- No Salt, Shame
-- Rogue Poller
+- chess Industry [Boot2root]
+- No Salt, Shame [Crypto]
+- Rogue Poller [Network]
