@@ -3,7 +3,7 @@ This engagement aims to find a way to open the gate by bypassing the badge authe
 The control infrastructure may hold a weakness: Dig in, explore, and see if you have what it takes to exploit it.
 Be sure to check all the open ports, you never know which one might be your way in!
 
-![breach start](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateclose.webp)
+![breach start](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/image.webp)
 <br>
 
 # Flag
@@ -34,7 +34,7 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
   
 **Step 2)** 웹 사이트에 접속하면 게이트가 닫혀있다는 페이지를 볼 수 있으며 /api/gate 에 접근하면 게이트의 상태를 가져오는거 같다.
 
-![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateclose.webp)
+![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateclose.webp)
 ```
 {
   "image": "closed-b8ce334bae3faf976fa457702fe7545b.png",
@@ -46,17 +46,17 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
 
 **Step 3)** 1880번 포트에 접근하면 IoT(사물 인터넷), 산업 제어 시스템, 홈 자동화를 위한 자동화 워크플로우를 구축하는 데 사용되는 오픈 소스 기반의 로우코드 흐름형 개발 도구인 Node-RED에 접속할 수 있다.
 
-![1880port](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/1880port.webp)
+![1880port](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/1880port.webp)
 <br>
 
 
 **Step 4)** /ui 에 접근하여 시스템 대쉬보드의 설정을 해제한다.
 
-![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/ui.webp) 
+![ui](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/ui.webp) 
 <br>
 
 **Step 5)** 대쉬보드 설정을 해제 후에 웹에 다시 접근하면 Flag 값을 알아낼수 있다.
 
-![flag](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateopen.webp)
+![flag](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateopen.webp)
 
 
