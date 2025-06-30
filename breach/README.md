@@ -26,4 +26,5 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
 ```
 
 Accessing the website reveals a page indicating that the gate is closed.
+![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateclose.webp)
 
