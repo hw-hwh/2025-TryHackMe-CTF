@@ -30,3 +30,7 @@ Accessing the website reveals a page indicating that the gate is closed.
 
 ![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateclose.webp)
 
+
+Furthermore, accessing port 1880 leads to Node-RED, an open-source, low-code, flow-based development tool used for building automation workflows in IoT (Internet of Things), industrial control systems, and home automation.
+
+![1880port](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/1880port.webp)
