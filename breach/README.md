@@ -10,8 +10,8 @@ Be sure to check all the open ports, you never know which one might be your way 
 THM{s4v3_th3_d4t3_27_jun3}
 ```
 
-
-
+  
+  
 # Write-up
 **Step 1)** 타겟 서버에 대해 Nmap 스캔을 통해 정찰을 수행하였다. 스캔 결과 중 웹 서비스가 열려있었으며, vast-control과 관련된 1880번 포트가 열려있다.
 ```
@@ -31,8 +31,8 @@ PORT      STATE SERVICE
 MAC Address: 02:52:83:5E:E3:5F (Unknown)
 ```
 
-
-
+  
+  
 **Step 2)** 웹 사이트에 접속하면 게이트가 닫혀있다는 페이지를 볼 수 있으며 /api/gate 에 접근하면 게이트의 상태를 가져오는거 같다.
 
 ![gate closed](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/gateclose.webp)
@@ -44,16 +44,16 @@ MAC Address: 02:52:83:5E:E3:5F (Unknown)
 ```
 
 
-
-
+  
+  
 
 **Step 3)** 1880번 포트에 접근하면 IoT(사물 인터넷), 산업 제어 시스템, 홈 자동화를 위한 자동화 워크플로우를 구축하는 데 사용되는 오픈 소스 기반의 로우코드 흐름형 개발 도구인 Node-RED에 접속할 수 있다.
 
 ![1880port](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/1880port.webp)
 
 
-
-
+  
+  
 
 **Step 4)** /ui 에 접근하여 시스템 대쉬보드의 설정을 해제한다.
 
