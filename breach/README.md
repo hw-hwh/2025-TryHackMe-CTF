@@ -3,7 +3,7 @@ This engagement aims to find a way to open the gate by bypassing the badge authe
 The control infrastructure may hold a weakness: Dig in, explore, and see if you have what it takes to exploit it.
 Be sure to check all the open ports, you never know which one might be your way in!
 
-![breach start]([https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/breach/images/image.webp](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateclose.webp))
+![breach start](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/breach/images/gateclose.webp)
 <br>
 
 # Flag
