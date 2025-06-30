@@ -1,6 +1,6 @@
 # Discord
 Join our Dircord server and find the flag?
-![strat]()
+![strat](https://github.com/hw-hwh/2025-TryHackMe-CTF/blob/main/discord/images/start.webp)
 <br>
 
 # Flag
