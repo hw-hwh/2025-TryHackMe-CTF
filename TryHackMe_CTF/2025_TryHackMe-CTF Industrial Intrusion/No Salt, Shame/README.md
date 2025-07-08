@@ -1,7 +1,7 @@
 # No Salt, Shame [Crypto]
 Virelia's gateway vendor "secured" the maintenance logs by encrypting all sensitive items with AES-CBC, using the plant's codename as the password and setting the IV to all zeros. Of course, without salting or integrity checking, there is only obscurity, not true security. The actual shutdown command is somewhere in the encrypted log.
 
-![No Salt, Shame start]()
+![No Salt, Shame start](https://github.com/hw-hwh/CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/No%20Salt%2C%20Shame/imgaes/image.webp)
 <br>
 
 # Flag
@@ -46,4 +46,4 @@ IV (Initialization Vector)를 0으로 고정한다 =  IV를 b'\x00' * 16으로 �
 sudo openssl enc -aes-256-cbc -d -in shutdown.log-1750934543756.enc -K 9cfa5c575052bee2ac406f82dbbcae08a18edf6bba396b9be46231347cf8f959 -iv 00000000000000000000000000000000
 ```
 <br>
-![flag]()
+![flag](https://github.com/hw-hwh/CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/No%20Salt%2C%20Shame/imgaes/flag.webp)
