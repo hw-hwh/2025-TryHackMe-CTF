@@ -17,8 +17,7 @@ THM{cbc_cl3ar4nce_gr4nt3d_10939}
 **  -> AES-CBC 방식으로 로그 파일의 일부(중요한 항목)를 암호화했다는 뜻입니다.**
 <br>
 
-- 발전소의 코드명을 암호로 사용하고 IV는 0으로 고정했습니다.
-
+- 발전소의 코드명을 암호로 사용하고 IV는 0으로 고정했습니다.<br>
 -> 암호: VIRELIA-WATER-FAC ← 이게 암호화에 쓰인 비밀번호(passphrase) 또는 키(key) 라는 뜻<br>
 -> IV (Initialization Vector): 모든 블록에 대해 0x00으로 설정되었다는 것 → 취약함.
 <br>
