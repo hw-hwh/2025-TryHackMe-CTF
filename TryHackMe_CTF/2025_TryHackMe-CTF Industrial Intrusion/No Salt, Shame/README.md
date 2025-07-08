@@ -46,4 +46,5 @@ IV (Initialization Vector)를 0으로 고정한다 =  IV를 b'\x00' * 16으로 �
 sudo openssl enc -aes-256-cbc -d -in shutdown.log-1750934543756.enc -K 9cfa5c575052bee2ac406f82dbbcae08a18edf6bba396b9be46231347cf8f959 -iv 00000000000000000000000000000000
 ```
 <br>
-![flag](https://github.com/hw-hwh/CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/No%20Salt%2C%20Shame/imgaes/flag.webp)
+
+![No Salt, Shame start](https://github.com/hw-hwh/CTF/blob/main/TryHackMe_CTF/2025_TryHackMe-CTF%20Industrial%20Intrusion/No%20Salt%2C%20Shame/imgaes/flag.webp)
