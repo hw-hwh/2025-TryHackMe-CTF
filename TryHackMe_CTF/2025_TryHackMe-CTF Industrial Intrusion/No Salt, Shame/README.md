@@ -18,8 +18,8 @@ THM{cbc_cl3ar4nce_gr4nt3d_10939}
 <br>
 
 - 발전소의 코드명을 암호로 사용하고 IV는 0으로 고정했습니다.
-**  -> 암호: VIRELIA-WATER-FAC ← 이게 암호화에 쓰인 비밀번호(passphrase) 또는 키(key) 라는 뜻
-**  -> IV (Initialization Vector): 모든 블록에 대해 0x00으로 설정되었다는 것 → 취약함.
+  -> 암호: VIRELIA-WATER-FAC ← 이게 암호화에 쓰인 비밀번호(passphrase) 또는 키(key) 라는 뜻
+  -> IV (Initialization Vector): 모든 블록에 대해 0x00으로 설정되었다는 것 → 취약함.
 <br>
 
 **Step 2)** 키 변환
